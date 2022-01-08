@@ -1,9 +1,11 @@
 body{font-family: 'Poppins', sans-serif;
     margin: 0%;
+
 }
 .sky-blue-color{color:orangered;
 }
 h1{font-size: 50px;
+  
 }
 h2{font-size: 40px;}
 .half-width{width: 50%;
@@ -33,3 +35,27 @@ width: 100%;
         background-repeat: no-repeat;
         background-position: right;
     }
+    .experience-item{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 20px;
+        box-shadow:10px 10px 40px gray;
+        border-radius: 10px;
+    }
+    #web-dev-experience{
+        border-left: 7px solid;
+        border-image: linear-gradient(red ,blue);
+        border-image-slice: 1;
+    }
+    #full-stack-experience{
+        border-left: 7px solid;
+        border-image: linear-gradient(rgb(76, 1, 95) ,rgb(209, 2, 116));
+        border-image-slice: 1;
+    }
+footer p{
+    text-align: center;
+}
+.margin{
+    margin-left: 15px;
+}
