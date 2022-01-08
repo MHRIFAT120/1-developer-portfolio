@@ -5,6 +5,7 @@ body{font-family: 'Poppins', sans-serif;
 }
 h1{font-size: 50px;
 }
+h2{font-size: 40px;}
 .half-width{width: 50%;
     padding: 5%;
 }
@@ -27,4 +28,8 @@ width: 100%;
 }
 .top-banner{background-image: url(images/top-banner.png);
        background-repeat: no-repeat;
+    }
+    .side-banner{background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
     }
